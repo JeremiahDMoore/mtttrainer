@@ -20,7 +20,7 @@ body {
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-	background: #fff;
+	background: #dedede;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -40,7 +40,7 @@ p {
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'PT Sans Narrow', sans-serif;
+ 	font-family: 'PT Sans Narrow', sans-serif;
 }
 .fitImage {
 	max-width: 100%;
@@ -67,10 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #BEBEBE;
 }
 .btn {
-	background: #6D508D;
+	background: #fb4f7a;
 }
 .btn:hover {
-	background: #145AC4;
+	background: #fb4dc0;
 }
 .btn, .form-control, .team-socials i {
 	border-radius: 5px !important;
@@ -100,16 +100,16 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	vertical-align: middle;
 	zoom: 1;
-	color: #fff;
+	color:#fb4f7a;
 	padding: 10px 25px;
-	border: 2px solid #fff;
+	border: 2px solid #fb4f7a;
 	border-radius: 0px;
 	font-size: 16px;
 	font-weight: 400;
-	background: rgba(255,255,255,0.15);
+	background: #fb4dc0;
 }
 .button-outline:hover {
-	color: #fff;
+	color: #fb4dc0;
 	background: rgba(255,255,255,0.35);
 }
 a {
@@ -123,7 +123,7 @@ a {
 	transition: all 0.2s linear;
 }
 a:hover {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 .btn {
@@ -133,26 +133,26 @@ a:hover {
 	}
 .btn-primary {
 background: #fff;
-border: 1px solid #fff !important;
-color: #414141 !important;
+border: 2px solid #fff !important;
+color: #020202!important;
 
 }
 .btn-secondary {
 background: transparent;
-border: 1px solid #fff !important;
+border: 2px solid #fff !important;
 color: #fff;
 
 }
 .btn-primary:hover{
-background: #0db4b9;
+background: #f980b0;
 color: #fff;
 }
 .btn-secondary:hover {
-background: #0db4b9;
+background:#f980b0;
 color: #fff;
 }
 .btn {
-color: #fff;
+color: #fff; /* left button text */
 font-size: 18px;
 min-height: 50px;
 border-radius: 40px;
@@ -456,11 +456,11 @@ text-align:center;
 	position: relative !important;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	background: url("../images/dealer2.jpg") no-repeat;
+	background: url("../images/bg-1.png") no-repeat;
 	background-size: 100% 100%;
 	background-size: cover !important;
 	position: relative;
-
+/* url("../images/dealer2.jpg") no-repeat */
 	height:800px;
 }
 .banner-container > img {
@@ -527,13 +527,13 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #134E5E  ; /* section 2 bg */
+	background: #353956  ; /* section 2 bg */
 }
 .colord p {
 	color: #fff;  /* section 2 text */
 }
 .colord h3 {
-	color: #ffd460;  /* section 2 header text */
+	color: #fb4f7a;  /* section 2 header text */
 }
 .hero-button {
 	text-align: center;
@@ -746,11 +746,13 @@ margin-bottom:45px;
 	margin: 2px;
 }
 #contactUs {
-/*background: #6D508D;*/;
+background: #353956;
 }
 #contactUs .btn {
 	border-radius: 0px !important;
-background: rgba(109, 80, 141, 0.64);
+background: rgba(251, 79, 122, 0.64);
+/* background: rgba(109, 80, 141, 0.64);
+ */
 color: #fff !important;
 }
 .descrition {
@@ -952,7 +954,7 @@ body {
 footer {
 	border-top: 1px solid #e5e5e5;
 	padding: 45px 0;
-	background: #fff;
+	background: #dedede;
 }
 .social a:hover {
 	color: #000;
@@ -960,7 +962,7 @@ footer {
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #134E5E   ; /* s media button color*/
+	color: #fb4f7a   ; /* s media button color*/
 }
 .contact ul li {
 	margin-bottom: 10px;
