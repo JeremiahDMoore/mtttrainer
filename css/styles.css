@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: #fb4f7a;
 }
 .btn:hover {
-	background: #fb4dc0;
+	background: #f980b0;
 }
 .btn, .form-control, .team-socials i {
 	border-radius: 5px !important;
@@ -103,14 +103,16 @@ h1, h2, h3, h4, h5, h6 {
 	color:#fb4f7a;
 	padding: 10px 25px;
 	border: 2px solid #fb4f7a;
-	border-radius: 0px;
+	border-radius: 5px;
 	font-size: 16px;
 	font-weight: 400;
-	background: #fb4dc0;
+	background: #fb4f7a;
 }
 .button-outline:hover {
 	color: #fb4dc0;
-	background: rgba(255,255,255,0.35);
+	/* background: rgba(255,255,255,0.35); */
+	background: #f980b0;
+
 }
 a {
 	color: #6D508D;
@@ -122,7 +124,7 @@ a {
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
-a:hover {
+a:hover {/* socials */
 	color: #fff;
 	text-decoration: none;
 }
@@ -144,12 +146,12 @@ color: #fff;
 
 }
 .btn-primary:hover{
-background: #f980b0;
+background: #fb4f7a;
 color: #fff;
 }
 .btn-secondary:hover {
-background:#f980b0;
-color: #fff;
+background:#fb4f7a;
+color: #020202;
 }
 .btn {
 color: #fff; /* left button text */
@@ -456,7 +458,7 @@ text-align:center;
 	position: relative !important;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	background: url("../images/bg-1.png") no-repeat;
+	background: url("../images/tile3.png") no-repeat;
 	background-size: 100% 100%;
 	background-size: cover !important;
 	position: relative;
@@ -557,7 +559,7 @@ a.arrow-link:hover {
 	color: #222;
 }
 #contactUs .heading h2 {
-	color: #ffd460;
+	color: #fb4f7a;
 ;
 }
 .sub-heading {
@@ -580,7 +582,7 @@ a.arrow-link:hover {
 
 }
 .heading h2 {
-	color: #000; /* 'Features' */
+	color: #1f253d; /* 'Features' */
 
 }
 .heading p {
@@ -637,12 +639,12 @@ margin-bottom:45px;
     text-align: left;
 }
 #features h4 {
-    color: #000;
+    color: #1f253d;
 
 	font-size:24px !important;
 }
 #features p {
-    color: #494949;
+    color: #1f253d;
 	font-size:16px;
 }
 .features .phone-image {
@@ -746,11 +748,11 @@ margin-bottom:45px;
 	margin: 2px;
 }
 #contactUs {
-background: #353956;
+background: #353967;
 }
 #contactUs .btn {
-	border-radius: 0px !important;
-background: rgba(251, 79, 122, 0.64);
+	border-radius: 4px !important;
+background: rgba(251, 79, 122);
 /* background: rgba(109, 80, 141, 0.64);
  */
 color: #fff !important;
@@ -957,12 +959,12 @@ footer {
 	background: #dedede;
 }
 .social a:hover {
-	color: #000;
+	color: #3c6afb ;
 }
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #fb4f7a   ; /* s media button color*/
+	color:  #fb4f7a ; /* s media button color*/
 }
 .contact ul li {
 	margin-bottom: 10px;
