@@ -1,14 +1,17 @@
 App name: MTT Trainer
+Built with: Android Studio
 System: Android [target API: 28(Pie 9); min API: 24(Nougat 7.0)
-Built: March - July 2020 by Jeremiah Moore with Android Studio, Java
+Release: July 14. 2020 by Jeremiah Moore 
 
-Trainer for No Limit Hold 'em Poker Tournament strategy. Short stack shove/fold solutions for 15 big blinds or less. Data based on Nash Equilibrium and game theory. Note: these solutions are simplified for quick memorization. There is no guarantee you will win; as always when you gamble. Use responsibly
+Trainer for No Limit Hold 'em Poker Tournament strategy. Short stack shove/fold solutions for 15 big blinds or less. Data based on Nash Equilibrium and game theory. 
+Note: these solutions are simplified for quick memorization. There is no guarantee you will win; as always when you gamble. Use responsibly.
 
 Heads Up Quiz:
-Push or Fold Quiz for Heads Up situations with 20 big blinds or less, 10% ante, or No ante. Hands and stack sizes are completely randomized. Press the score at the top right of the screen to review your answers
+Push or Fold Quiz for Heads Up situations with 20 big blinds or less, 10% ante, or No ante. Hands, antes and stack sizes are completely randomized. Press the score at the top right of the screen to review your answers.
 
 Shove Ranges:
-All-In guidlines for up to 10 handed poker. 12.5%, 10%, and No ante supported. Big Blind vs Small Blind calling solutions added. Random spots can be generated using the button at top left of screen.
+All-In guidlines for up to 10 handed poker. 12.5%, 10%, and No ante supported. Big Blind vs Small Blind calling solutions. Random spots can be generated using the button at top left of screen.
+
 To Use:
 1. Select the 'Ante' radio button (12.5%, 10% or None)*Big Blind ante should use 10% unless table is short-handed 
 2. Use the slider to select number of Big Blinds you have in your chip stack, up to 15bb
