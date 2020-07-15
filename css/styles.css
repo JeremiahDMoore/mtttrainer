@@ -562,8 +562,9 @@ a.arrow-link:hover {
 }
 #contactUs .heading h2 {
 	color: #fb4f7a;
-;
+
 }
+
 .sub-heading {
 	padding: 15px 0;
 }
@@ -656,10 +657,11 @@ margin-bottom:45px;
 
 }
 #aboutUs {
-	background: #fff    ; /* just below 'Features' ; 'Make Better Dec...'*/
+	background: #dedede    ; /* just below 'Features' ; 'Make Better Dec...'*/
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
+	color: #000;
 }
 #aboutUs .feature {
 	margin-top: 30px;
@@ -677,6 +679,10 @@ margin-bottom:45px;
 	font: 18px/34px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	color: #000;
+}
+#aboutUs p {
+
 	color: #222;
 }
 .fluid-video-wrapper {
@@ -958,9 +964,8 @@ body {
 	margin-right: 6px;
 }
 footer {
-	border-top: 1px solid #e5e5e5;
 	padding: 45px 0;
-	background: #dedede;
+	background: #171717;
 }
 .social a:hover {
 	color: #3c6afb ;
