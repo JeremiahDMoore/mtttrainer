@@ -638,19 +638,22 @@ margin-bottom:45px;
     text-align: left;
 }
 .features .features-right {
-    text-align: left;
+    text-align: right;
 }
 #features h4 {
-    color: #1f253d;
+    color: #000;
 	font-size:18px !important;
 }
 #features p {
-    color: #1f253d;
+    color: #000;
 	font-size:14px;
 }
 .features .phone-image {
-    max-width: 250px;
-    margin: auto auto 80px;
+    max-width: 320px;
+	position: absolute;
+	right: 0;
+	margin: auto auto 80px; 
+
 }
 #aboutUs {
 	background: #fff    ; /* just below 'Features' ; 'Make Better Dec...'*/
