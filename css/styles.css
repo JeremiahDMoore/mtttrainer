@@ -136,25 +136,30 @@ a:hover {/* socials */
 .btn-primary {
 background: #fff;
 border: 2px solid #fff !important;
+font-weight: bold;
 color: #020202!important;
 
 }
 .btn-secondary {
 background: transparent;
 border: 2px solid #fff !important;
+font-weight: bold;
 color: #fff;
 
 }
 .btn-primary:hover{
 background: #fb4f7a;
+font-weight: bold;
 color: #fff;
 }
 .btn-secondary:hover {
 background:#fb4f7a;
+font-weight: bold;	
 color: #020202;
 }
 .btn {
 color: #fff; /* left button text */
+font-weight: bold;
 font-size: 18px;
 min-height: 50px;
 border-radius: 40px;
@@ -458,7 +463,7 @@ text-align:center;
 	position: relative !important;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	background: url("../images/tile3.png") no-repeat;
+	background: url("../images/bg-1.png") no-repeat;
 	background-size: 100% 100%;
 	background-size: cover !important;
 	position: relative;
