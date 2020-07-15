@@ -635,19 +635,18 @@ img, video, iframe, embed, object {
 margin-bottom:45px;
 }
 .features .features-left {
-    text-align: right;
+    text-align: left;
 }
 .features .features-right {
     text-align: left;
 }
 #features h4 {
     color: #1f253d;
-
-	font-size:24px !important;
+	font-size:18px !important;
 }
 #features p {
     color: #1f253d;
-	font-size:16px;
+	font-size:14px;
 }
 .features .phone-image {
     max-width: 250px;
